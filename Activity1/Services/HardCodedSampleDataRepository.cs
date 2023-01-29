@@ -54,7 +54,7 @@ namespace Activity1.Services
             throw new NotImplementedException();
         }
 
-        public int Update(ProductModel product)
+        public int Update(ProductModel product) 
         {
             throw new NotImplementedException();
         }
