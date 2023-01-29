@@ -27,7 +27,7 @@ namespace Activity1.Services
                     newIdNumber = Convert.ToInt32(command.ExecuteScalar());
                 }
                 catch (Exception ex)
-                {
+                { 
                     Console.WriteLine(ex.Message);
                 }
 
