@@ -15,7 +15,7 @@ namespace Activity1.Models
 
         [DisplayName("Product Name")]
         public string Name { get; set; }
-
+   
         [DisplayName("Cost to Customer")]
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
