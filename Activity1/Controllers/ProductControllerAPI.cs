@@ -33,7 +33,7 @@ namespace Activity1.Controllers
         public ActionResult <IEnumerable<ProductModel>> SearchResults(string searchTerm)
         {
             return repository.SearchProducts(searchTerm);
-        }
+        } 
 
         [HttpGet("ShowOneDetail/{id}")]
         public ActionResult <ProductDTO> ShowDetails(int Id)
