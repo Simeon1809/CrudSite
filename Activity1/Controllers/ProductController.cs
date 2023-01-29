@@ -73,7 +73,7 @@ namespace Activity1.Controllers
             return PartialView("_productCard", product);
         }
         public IActionResult Delete(int Id)
-        {
+        { 
             ProductModel DeleteMe = repository.GetProductById(Id);
             repository.Delete(DeleteMe);
             return View("Index", repository.AllProducts());
