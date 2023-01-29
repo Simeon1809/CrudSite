@@ -40,7 +40,7 @@ namespace Activity1.Controllers
         {
             ProductModel p = repository.GetProductById(Id);
             ProductDTO pDTO = new ProductDTO(p);
-            return pDTO;
+            return pDTO; 
         }
 
         [HttpPost("CreateProduct")]
