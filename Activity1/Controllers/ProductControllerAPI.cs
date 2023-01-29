@@ -18,7 +18,7 @@ namespace Activity1.Controllers
 
         [HttpGet]
         public ActionResult<IEnumerable<ProductDTO>> Index()
-        {
+        { 
             List<ProductModel> products = repository.AllProducts();
 
             List<ProductDTO> productDTOs = new List<ProductDTO>();
